@@ -1,0 +1,24 @@
+body {
+  background: #020617;
+  font-family: Arial, sans-serif;
+}
+section {
+  scroll-margin-top: 100px;
+}
+* {
+  transition: all 0.3s ease;
+}
+/* Prevent horizontal scroll on mobile */
+body {
+  overflow-x: hidden;
+}
+
+/* Global section spacing fix */
+section {
+  scroll-margin-top: 100px;
+}
+
+/* Smooth transitions */
+* {
+  transition: all 0.3s ease;
+}
