@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        Tushar<span>.</span>
+        Tushar Rajput<span>.</span>
       </div>
 
       <div className={`nav-links ${open ? "active" : ""}`}>
