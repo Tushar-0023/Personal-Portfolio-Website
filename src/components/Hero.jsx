@@ -1,4 +1,5 @@
 import "../styles/Hero.css";
+ import profile from "../assets/images/profile.jpg";
 
 const Hero = () => {
   return (
@@ -46,10 +47,11 @@ const Hero = () => {
 
       <div className="hero-right">
         <div className="glow-circle"></div>
-
-        <div className="profile-card">
-          <img src="/src/assets/images/profile.jpg" alt="Tushar profile" />{" "}
-        </div>
+        
+      <div className="profile-card">
+        <img src={profile} alt="Tushar profile" />
+      </div>
+        
       </div>
     </section>
   );
