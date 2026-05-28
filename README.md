@@ -1,68 +1,16 @@
-# 🌐 Personal Portfolio Website
+# React + Vite
 
-## 📌 About the Project
-This is my personal portfolio website built using React (Vite). It showcases my skills, projects, and experience as a Full-Stack Web Developer. The website is designed with a modern UI, fully responsive layout, and optimized performance for all devices.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Live Demo
-https://your-portfolio-link.vercel.app
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
----
+## React Compiler
 
-## 🛠️ Tech Stack
-- React.js
-- Vite
-- HTML5
-- CSS3
-- JavaScript (ES6+)
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
----
+## Expanding the ESLint configuration
 
-## ✨ Features
-- Fully responsive design (mobile + desktop friendly)
-- Modern and clean UI
-- Smooth navigation
-- About section
-- Projects showcase section
-- Skills section
-- Contact section
-- Fast performance using Vite
-
----
-
-## 📂 Installation & Setup
-
-### 1. Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
-
-### 2. Go to project folder
-cd your-repo-name
-
-### 3. Install dependencies
-npm install
-
-### 4. Run the project
-npm run dev
-
----
-
-## 📦 Build for Production
-npm run build
-
----
-
-## 👨‍💻 Author
-Tushar Rajput  
-GitHub: https://github.com/your-username  
-LinkedIn: https://www.linkedin.com/in/your-profile
-
----
-
-## 📄 License
-This project is licensed under the MIT License.
-
----
-
-## ⭐ Show your support
-If you like this project, please give it a ⭐ on GitHub!
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
