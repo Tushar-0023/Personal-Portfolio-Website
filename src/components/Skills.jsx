@@ -18,11 +18,13 @@ const Skills = () => {
         <div className="skill-card">
           <h3>Frontend</h3>
           <div className="skill-items">
-            <span>HTML</span>
+           <span>HTML</span>
             <span>CSS</span>
             <span>JavaScript</span>
             <span>React.js</span>
+            <span>Next.js</span>
             <span>Bootstrap</span>
+            <span>Tailwind css</span>
           </div>
         </div>
 
@@ -40,6 +42,7 @@ const Skills = () => {
           <div className="skill-items">
             <span>MySQL</span>
             <span>MongoDB</span>
+            <span>PostgreSQL</span>
           </div>
         </div>
 
@@ -50,6 +53,8 @@ const Skills = () => {
             <span>GitHub</span>
             <span>VS Code</span>
             <span>Postman</span>
+            <span>Google Cloud</span>
+            <span>GitHub Copilot</span>
           </div>
         </div>
       </div>
