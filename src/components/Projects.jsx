@@ -10,19 +10,53 @@ const Projects = () => {
 
         <p className="projects-text">
           Here are some projects I built to strengthen my full stack development
-          skills and solve real-world problems.
+          skills by solving real-world problems using modern web technologies
+          and AI.
         </p>
       </div>
 
       <div className="projects-grid">
-        {/* HireNova AI */}
-        <div className="project-card featured">
+        {/* ================= TEAMFLOW ================= */}
+
+        <div
+          className="project-card featured"
+          onClick={() =>
+            window.open("https://team-flow-flame.vercel.app/", "_blank")
+          }
+          style={{ cursor: "pointer" }}
+        >
           <div className="project-content">
             <p className="project-label">Featured Project</p>
-            <h3>HireNova AI</h3>
+
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                marginBottom: "10px",
+              }}
+            >
+              <h3 style={{ margin: 0 }}>TeamFlow</h3>
+
+              <a
+                href="https://github.com/Tushar-0023/TeamFlow"
+                target="_blank"
+                rel="noreferrer"
+                onClick={(e) => e.stopPropagation()}
+                style={{
+                  color: "#60a5fa",
+                  fontWeight: "600",
+                  textDecoration: "none",
+                }}
+              >
+                GitHub ↗
+              </a>
+            </div>
+
             <p>
-              AI-based recruitment platform with role-based authentication, job
-              posting, applications, and recruiter dashboard.
+              Modern SaaS project management platform featuring authentication,
+              project management, task management, Kanban board, analytics,
+              profile management, responsive UI and premium dashboard.
             </p>
 
             <div className="tech-stack">
@@ -30,23 +64,52 @@ const Projects = () => {
               <span>Node.js</span>
               <span>Express</span>
               <span>MySQL</span>
-            </div>
-
-            <div className="project-buttons">
-              <a href="https://github.com/Tushar-0023" target="_blank">
-                GitHub
-              </a>
-              <a href="#">Live Demo</a>
+              <span>JWT</span>
             </div>
           </div>
         </div>
 
-        {/* Student CRUD */}
-        <div className="project-card">
-          <h3>Student CRUD System</h3>
+        {/* ================= RESUMEIQ AI ================= */}
+
+        <div
+          className="project-card"
+          onClick={() =>
+            window.open(
+              "https://frontend-resume-analyzer.vercel.app/",
+              "_blank",
+            )
+          }
+          style={{ cursor: "pointer" }}
+        >
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "center",
+              marginBottom: "10px",
+            }}
+          >
+            <h3 style={{ margin: 0 }}>ResumeIQ AI</h3>
+
+            <a
+              href="https://github.com/Tushar-0023/ResumeIQ-AI"
+              target="_blank"
+              rel="noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              style={{
+                color: "#60a5fa",
+                fontWeight: "600",
+                textDecoration: "none",
+              }}
+            >
+              GitHub ↗
+            </a>
+          </div>
+
           <p>
-            Full stack CRUD app for managing student records with authentication
-            and database integration.
+            AI-powered resume analyzer that evaluates resumes, analyzes skills,
+            provides resume scoring, smart feedback and personalized AI
+            suggestions to improve resumes.
           </p>
 
           <div className="tech-stack">
@@ -54,16 +117,40 @@ const Projects = () => {
             <span>Node.js</span>
             <span>Express</span>
             <span>MySQL</span>
+            <span>OpenAI</span>
           </div>
         </div>
+        {/* ================= E-COMMERCE ================= */}
 
-        {/* E-commerce Project */}
         <div className="project-card">
-          <h3>E-commerce Website</h3>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "center",
+              marginBottom: "10px",
+            }}
+          >
+            <h3 style={{ margin: 0 }}>E-commerce Website</h3>
+
+            <a
+              href="https://github.com/Tushar-0023?tab=repositories"
+              target="_blank"
+              rel="noreferrer"
+              style={{
+                color: "#60a5fa",
+                fontWeight: "600",
+                textDecoration: "none",
+              }}
+            >
+              GitHub ↗
+            </a>
+          </div>
 
           <p>
-            Full stack e-commerce platform with product listing, cart system,
-            authentication, and order management features.
+            Full stack e-commerce platform featuring secure authentication,
+            product catalog, shopping cart, order management, responsive UI, and
+            a smooth online shopping experience.
           </p>
 
           <div className="tech-stack">
@@ -73,37 +160,47 @@ const Projects = () => {
             <span>MySQL</span>
             <span>Bootstrap</span>
           </div>
-
-          <div className="project-buttons">
-            <a href="https://github.com/Tushar-0023" target="_blank">
-              GitHub
-            </a>
-            <a href="#">Live Demo</a>
-          </div>
         </div>
 
-        {/* Real-time Chat App */}
+        {/* ================= HIRENOVA AI ================= */}
+
         <div className="project-card">
-          <h3>Real-Time Chat App</h3>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "center",
+              marginBottom: "10px",
+            }}
+          >
+            <h3 style={{ margin: 0 }}>HireNova AI</h3>
+
+            <a
+              href="https://github.com/Tushar-0023/Hire-Nova-AI"
+              target="_blank"
+              rel="noreferrer"
+              style={{
+                color: "#60a5fa",
+                fontWeight: "600",
+                textDecoration: "none",
+              }}
+            >
+              GitHub ↗
+            </a>
+          </div>
 
           <p>
-            Instant messaging application with real-time communication, user
-            authentication, and live chat rooms using WebSockets.
+            AI-powered recruitment platform with secure authentication,
+            recruiter dashboard, job posting, candidate management, and an
+            intelligent hiring workflow.
           </p>
 
           <div className="tech-stack">
             <span>React</span>
             <span>Node.js</span>
-            <span>Socket.io</span>
             <span>Express</span>
-            <span>MongoDB</span>
-          </div>
-
-          <div className="project-buttons">
-            <a href="https://github.com/Tushar-0023" target="_blank">
-              GitHub
-            </a>
-            <a href="#">Live Demo</a>
+            <span>MySQL</span>
+            <span>JWT</span>
           </div>
         </div>
       </div>
