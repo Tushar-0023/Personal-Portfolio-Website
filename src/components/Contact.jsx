@@ -22,9 +22,10 @@ const Contact = () => {
     if (data.success) {
       setResult("✅ Message sent successfully!");
       event.target.reset();
-    } else {
-      console.log(data);
-      setResult("❌ Failed to send message.");
+
+      setTimeout(() => {
+        setResult("");
+      }, 5000);
     }
   };
 
@@ -73,8 +74,9 @@ const Contact = () => {
             required
           ></textarea>
 
-          <button type="submit">Send Message</button>
-
+          <button type="submit">
+            {result === "Sending..." ? "Sending..." : "Send Message"}
+          </button>
           <span className="form-result">{result}</span>
         </form>
       </div>
