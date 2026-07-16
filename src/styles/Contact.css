@@ -107,3 +107,11 @@
     grid-template-columns: 1fr;
   }
 }
+
+.form-result {
+  display: block;
+  margin-top: 15px;
+  color: #00d084;
+  font-weight: 600;
+  text-align: center;
+}
