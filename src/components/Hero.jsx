@@ -1,5 +1,5 @@
 import "../styles/Hero.css";
- import profile from "../assets/images/Tushar Photo full.png";
+ import profile from "../assets/images/Tushar Full Picture_Coat.png";
 
 const Hero = () => {
   return (
